@@ -886,7 +886,7 @@ configure:5555: $? = 0
 configure:5573: result: yes
 configure:5580: checking for _doprnt
 configure:5636: gcc -o conftest -g -O2   conftest.c  -lcurses >&5
-/usr/bin/ld: /tmp/ccFQOJs6.o: in function `main':
+/usr/bin/ld: /tmp/ccp7rdmz.o: in function `main':
 /home/runner/work/rogue-study/rogue-study/conftest.c:76:(.text.startup+0xb): undefined reference to `_doprnt'
 collect2: error: ld returned 1 exit status
 configure:5642: $? = 1
@@ -1013,7 +1013,7 @@ configure:5760: $? = 0
 configure:5778: result: yes
 configure:5698: checking for nlist
 configure:5754: gcc -o conftest -g -O2   conftest.c  -lcurses >&5
-/usr/bin/ld: /tmp/cc9pBbZ4.o: in function `main':
+/usr/bin/ld: /tmp/ccikqmng.o: in function `main':
 /home/runner/work/rogue-study/rogue-study/conftest.c:83:(.text.startup+0xb): undefined reference to `nlist'
 collect2: error: ld returned 1 exit status
 configure:5760: $? = 1
@@ -1107,7 +1107,7 @@ configure: failed program was:
 configure:5778: result: no
 configure:5698: checking for _spawnl
 configure:5754: gcc -o conftest -g -O2   conftest.c  -lcurses >&5
-/usr/bin/ld: /tmp/ccwc5Kx5.o: in function `main':
+/usr/bin/ld: /tmp/ccr0PAbc.o: in function `main':
 /home/runner/work/rogue-study/rogue-study/conftest.c:83:(.text.startup+0xb): undefined reference to `_spawnl'
 collect2: error: ld returned 1 exit status
 configure:5760: $? = 1
@@ -1201,7 +1201,7 @@ configure: failed program was:
 configure:5778: result: no
 configure:5698: checking for spawnl
 configure:5754: gcc -o conftest -g -O2   conftest.c  -lcurses >&5
-/usr/bin/ld: /tmp/ccFXc7Vl.o: in function `main':
+/usr/bin/ld: /tmp/cc0usprz.o: in function `main':
 /home/runner/work/rogue-study/rogue-study/conftest.c:83:(.text.startup+0xb): undefined reference to `spawnl'
 collect2: error: ld returned 1 exit status
 configure:5760: $? = 1
@@ -1299,7 +1299,7 @@ configure:5760: $? = 0
 configure:5778: result: yes
 configure:5698: checking for loadav
 configure:5754: gcc -o conftest -g -O2   conftest.c  -lcurses >&5
-/usr/bin/ld: /tmp/ccn3Dl5W.o: in function `main':
+/usr/bin/ld: /tmp/cchCLqlx.o: in function `main':
 /home/runner/work/rogue-study/rogue-study/conftest.c:84:(.text.startup+0xb): undefined reference to `loadav'
 collect2: error: ld returned 1 exit status
 configure:5760: $? = 1
